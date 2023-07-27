@@ -22,8 +22,8 @@ stored in PostgreSQL database using Prisma ORM.
 3. Setup environment variables
 
 ```env
-DATABASE_URL=postgresql://ryanx@localhost:5432/mydatabase
-JWT_SECRET=secrettoken
+DATABASE_URL=connection_string
+JWT_SECRET=secret
 ```
 
 4. Create and seed the database
